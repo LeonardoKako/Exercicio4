@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Cubano';
+    src: url('Cubano/Cubano.ttf') format('truetype');
+    /* Adicione outros formatos de fonte, se disponíveis */
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cubano';
+}
+
+header {
+    padding: 16px 0;
+    background: #087454;
+    color: aliceblue;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+header nav li a:hover {
+    color: aquamarine;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coxa {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coxa .texto-coxa {
+    width: 40vw;
+    height: 55vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-coxa h1, .texto-coxa p, .texto-coxa .imgs-coxa {
+    width: 100%;
+}
+
+.texto-coxa h1 {
+    margin-bottom: 10px;
+}
+
+.texto-coxa p {
+    margin-bottom: 10px;
+}
+
+.imgs-coxa img{
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contato {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contato h1 {
+    color: #087454;
+    width: 100%;
+    margin-left: 2.9vw;
+}
+
+.contato div {
+    width: 30vw;
+    height: 65vh;
+}
+
+.fale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.fale h1, .fale .inputs {
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.fale h1 {
+    margin-left: 0px;
+}
+
+.fale .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.fale input {
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.fale button {
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.fale button:hover {
+    background: #a8a8a8;
+    cursor: pointer;
+}
+
+.fale textarea {
+    height: 130px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.acompanhe {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.acompanhe h1 {
+    text-align: start;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.acompanhe img{
+    margin-bottom: 45vh;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.venha {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.venha h1 {
+    text-align: start;
+    margin-left: 0px;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background: #087454;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
